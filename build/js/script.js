@@ -5,7 +5,7 @@ $(function () {
   let meetMonsters = document.querySelector("#meet");
   let monsterScroll = document.querySelectorAll("#monster-group .monster");
   let navHeight = nav.scrollHeight;
-  //TODO: #3 Update these names to be more descriptive
+  //TODO: #3 change these names to be more descriptive
 
   monsterScroll.forEach(
     (item) => (item.style.animationDelay = `${Math.random() * 1 + 0.4}s`)
